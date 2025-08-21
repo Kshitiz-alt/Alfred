@@ -1,0 +1,21 @@
+{
+  "name": "alfred",
+  "version": "1.0.0",
+  "main": "app/alfred.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@nut-tree-fork/nut-js": "^4.2.6",
+    "axios": "^1.11.0",
+    "chokidar": "^4.0.3",
+    "dotenv": "^17.2.1",
+    "mineflayer": "^4.32.0",
+    "mineflayer-pathfinder": "^2.4.5"
+  }
+}
