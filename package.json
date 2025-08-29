@@ -4,6 +4,7 @@
   "main": "app/alfred.js",
   "type": "module",
   "scripts": {
+    "start":"node app/WebAi/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,8 +15,13 @@
     "@nut-tree-fork/nut-js": "^4.2.6",
     "axios": "^1.11.0",
     "chokidar": "^4.0.3",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "minecraft-data": "^3.97.0",
     "mineflayer": "^4.32.0",
-    "mineflayer-pathfinder": "^2.4.5"
+    "mineflayer-collectblock": "^1.6.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "vec3": "^0.1.10"
   }
 }
