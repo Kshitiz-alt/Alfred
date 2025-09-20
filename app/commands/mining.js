@@ -35,13 +35,12 @@ export async function mineCMD(bot, username, blockName = "stone") {
     .map((pos) => bot.blockAt(pos))
     .filter((b) => b && isExposed(bot, b.position));
 
-  if (!blockExposed.length) {
+  if (!blockExposed.length){
     bot.chat(`I can't find any ${blockName} nearby, ${title}.`);
     setMode("idle");
     return;
   }
 
-  // Needs pickaxe?
   const needsPickaxe = [
     "stone",
     "iron_ore",
